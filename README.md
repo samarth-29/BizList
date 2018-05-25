@@ -18,3 +18,9 @@ https://www.digitalocean.com/community/tutorials/how-to-install-couchdb-and-futo
 
 To Access Futon Web Interface, go to your favourite browser and type following URL;
 localhost:5984/_utils
+
+To Install bower run following command:
+npm install -g bower
+
+To install foundation run following command:
+bower install foundation
