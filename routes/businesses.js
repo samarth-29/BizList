@@ -11,7 +11,18 @@ const couch = new NodeCouchDb({
 var uuid = require('node-uuid');
 
 router.get('/', function(req, res, next) {
-  res.render('businesses');
+  const dbName = "bizlist";
+  const viewUrl = "_design/allbusinesses/_view/all";
+
+  const queryOptions = {};
+
+  couch.get(dbName, viewUrl, queryOptions).then(({data, headers, status}) => {
+    res.render('businesses', {
+      businesses: data.rows
+    });
+  }, err => {
+      res.send('err');
+  });
 });
 
 router.get('/add', function(req, res, next) {
