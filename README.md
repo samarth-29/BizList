@@ -1,6 +1,6 @@
 # BizList
 
-This is the application in which you can create businesses, it supports full CRDU functionality.
+This is the application in which you can create businesses, it supports full CRUD functionality.
 
 Basically the application has simple home page which shows the list of all businesses.
 User can edit/delete the existing businesses.
