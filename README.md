@@ -9,8 +9,8 @@ User should also be able to add the business using simple GUI provided.
 Technical Requirements
 - Node.jS
 - CouchDB
-- Futon Interface - Web Based tools to manage collection of data
-- Node-COuchdb Module - To interact with CouchDB in Node application
+- Fauxton Interface - Web Based tools to manage collection of data
+- Node-Couchdb Module - To interact with CouchDB in Node application
 - Foundation UI
 
 To Install CouchDB in ubuntu:
